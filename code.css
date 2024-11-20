@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: url(images/retire3.webp) no-repeat center center fixed;
+    background-size: cover;
+    object-fit: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-shadow: 3px 3px 6px #807575;
+}
+
+.container {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+.input-field {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+
+input {
+    width: calc(100% - 20px); 
+    padding: 10px;
+    margin: 0;
+    text-transform: capitalize;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+button {
+    width: 50%;
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    color: #000;
+    cursor: pointer;
+    transition: background-color 1s;
+}
+
+button:hover {
+    background-color: #848484;
+    transition-delay: 0.4s;
+    color: wheat;
+    font-weight: bolder;
+}
+
+.message {
+    margin-top: 20px;
+    font-size: 1.2em;
+    text-transform: capitalize;
+}

@@ -80,20 +80,6 @@ button:hover {
     text-transform: capitalize;
 }
 
-/* @media (max-width: 480px) {
-    .container {
-        padding: 15px;
-    }
-
-    input {
-        font-size: 14px;
-    }
-
-    button {
-        width: 100%;
-    }
-} */
-
 @media (max-width: 480px) {
     body {
         padding: 10px;
@@ -105,12 +91,12 @@ button:hover {
 
     .container {
         padding: 15px 20px;
-        max-width: 90%; /* Adjust the width to fit smaller screens */
+        max-width: 90%;
     }
 
     input, button {
         font-size: 14px;
-        width: 100%; /* Ensure inputs and buttons span the full container width */
+        width: 100%;
     }
 
     button {
@@ -122,11 +108,11 @@ button:hover {
     }
 }
 
-/* For tablets (480px to 768px wide) */
+
 @media (max-width: 768px) {
     .container {
         padding: 20px 30px;
-        max-width: 70%; /* Slightly smaller width for tablets */
+        max-width: 70%; 
     }
 
     input, button {
@@ -138,7 +124,7 @@ button:hover {
     }
 }
 
-/* For desktops (larger than 768px) */
+
 @media (min-width: 769px) {
     .container {
         max-width: 400px;

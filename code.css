@@ -79,3 +79,76 @@ button:hover {
     font-size: 1.2em;
     text-transform: capitalize;
 }
+
+/* @media (max-width: 480px) {
+    .container {
+        padding: 15px;
+    }
+
+    input {
+        font-size: 14px;
+    }
+
+    button {
+        width: 100%;
+    }
+} */
+
+@media (max-width: 480px) {
+    body {
+        padding: 10px;
+        background: url(images/mobile.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .container {
+        padding: 15px 20px;
+        max-width: 90%; /* Adjust the width to fit smaller screens */
+    }
+
+    input, button {
+        font-size: 14px;
+        width: 100%; /* Ensure inputs and buttons span the full container width */
+    }
+
+    button {
+        margin-top: 15px;
+    }
+
+    h2 {
+        font-size: 1.5em;
+    }
+}
+
+/* For tablets (480px to 768px wide) */
+@media (max-width: 768px) {
+    .container {
+        padding: 20px 30px;
+        max-width: 70%; /* Slightly smaller width for tablets */
+    }
+
+    input, button {
+        font-size: 15px;
+    }
+
+    h2 {
+        font-size: 1.8em;
+    }
+}
+
+/* For desktops (larger than 768px) */
+@media (min-width: 769px) {
+    .container {
+        max-width: 400px;
+    }
+
+    input, button {
+        font-size: 16px;
+    }
+
+    h2 {
+        font-size: 2em;
+    }
+}
